@@ -15,3 +15,11 @@ Are the categories by which the NY Times sorts it's online articles still meanin
 * The article texts were passed through a spaCy pipeline to tokenize, tag, lemmatize and remove stopwords.
 * Custom stopwords were added to remove common repeats like titles, byline locations, etc...
 * The resultant text was run through Gensim's Latent Dirichlet Allocation for topic modeling.
+
+FULL TOPICS
+
+## 4. The results
+
+* Selected 32 topics as the optimal number based on parameter tuning of the LDA model.
+* Best coherency score: 0.58
+* Final sample topics: 
